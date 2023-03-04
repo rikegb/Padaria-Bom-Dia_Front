@@ -1,0 +1,60 @@
+
+*{         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap'); 
+           margin: 0;
+            padding: 0;
+            align-items: center;
+            box-sizing: border-box;
+            text-decoration:none;
+            font-family : sans-serif;
+            }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 100%;
+    background: #23b499;
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+}
+select{
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0!important;
+    background: #5c6664;
+    background-image: none;
+    border-radius: 20px;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+
+}
+section::-ms-expand{
+    display: none;
+
+}
+.selection{
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #5c6664;
+
+}
+button{
+    appearance: none;
+    outline: 1;
+    box-shadow: none;
+    border: 0!important;
+    background: #5c6664;
+    background-image: none;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+}
