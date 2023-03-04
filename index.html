@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Bom Dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="table">
+        <h1>Padaria Bom Dia</h1>
+        <p>Selecione o período</p>
+        <select name="selecionar" id="sel">
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outubro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+            <option value="Dezembro">Dezembro</option>
+        </select>
+        <button onclick="confirmar()">Buscar</button>
+        <section id="hide">
+            <div id='res'></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
